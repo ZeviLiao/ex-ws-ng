@@ -1,0 +1,7 @@
+<input
+  type="text"
+  value="{{ myValue }}"
+  (change)="updateMyValue($event.target.value)"
+/>
+
+<button (click)="sendMsg()">send</button>
